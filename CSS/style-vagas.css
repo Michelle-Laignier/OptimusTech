@@ -40,3 +40,54 @@
     line-height: 30px;
     margin-bottom: 3rem;
 }
+
+.vagas_abertas {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.vagas_abertas_titulo_1, .vagas_abertas_titulo_2 {
+    color: var(--title-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    width: 53%;
+}
+
+.vagas_abertas_titulo_1 {
+    margin: 4rem 0 2rem 0;
+}
+
+.vagas_abertas_titulo_2 {
+    margin: 2.5rem 0 2rem 0;
+}
+
+.vaga {
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 1.5rem;
+    padding: 24px 24px 28px;
+    width: 50%;
+}
+
+.vaga_nome {
+    color: var(--title-color);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.informacoes {
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.vaga_salario {
+    margin-left: 1.5rem;
+}
