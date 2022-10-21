@@ -1,0 +1,51 @@
+:root {
+    --text-color: #667085;
+    --main-color: #8E2424;
+    --title-color: #101828;
+}
+
+.depoimentos {
+    align-items: center;
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    margin: 6rem 7rem 6rem 7rem;
+    padding: 64px;
+}
+
+.dep_texto_cima {
+    color: var(--main-color);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+}
+
+.dep_titulo {
+    color: var(--title-color);
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    line-height: 44px;
+    margin: 1rem 0 2rem 0;
+    text-align: center;
+}
+
+.colab_nome {
+    color: var(--title-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 1rem 0 0.25rem 0;
+    text-align: center;
+}
+
+.colab_funcao {
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
