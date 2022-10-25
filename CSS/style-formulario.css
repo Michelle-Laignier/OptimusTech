@@ -65,8 +65,8 @@
 
 .copyright {
     color: var(--text-color);
-    font-weight: 400;
     font-size: 16px;
+    font-weight: 400;
     line-height: 24px;
     margin-top: 2rem;
 }
