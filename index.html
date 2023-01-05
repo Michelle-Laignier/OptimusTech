@@ -14,39 +14,54 @@
     <link rel="stylesheet" href="css/style-vagas.css">
     <link rel="stylesheet" href="css/style-depoimentos.css">
     <link rel="stylesheet" href="css/style-formulario.css">
+    <link rel="stylesheet" href="./CSS/medias.css">
     <title>OptimusTech</title>
 </head>
 
 <body>
     <header>
-        <nav class="cabecalho_nav">
+        <section class="cabecalho_nav">
+            <img src="./img/menu.png" alt="Ícone de menu" class="menu_icone">
             <div class="logo_container">
                 <img src="img/logo.svg" alt="Logo da OptimusTech">
                 <h1 class="logo_titulo">OptimusTech</h1>
             </div>
 
-            <div>
+            <nav class="menu_lateral">
+                <div class="menu_logo">
+                    <img src="img/logo.svg" alt="Logo da OptimusTech" class="menu_img_logo">
+                    <h1 class="menu_titulo">OptimusTech</h1>
+                </div>
+                <ul class="menu_lista">
+                    <li class="menu_item"><a class="menu_link" href="#">Home</a></li>
+                    <li class="menu_item"><a class="menu_link" href="#">Produtos</a></li>
+                    <li class="menu_item"><a class="menu_link" href="#">Recursos</a></li>
+                    <li class="menu_item"><a class="menu_link" href="#">Sobre nós</a></li>
+                </ul>
+            </nav>
+
+            <nav>
                 <a class="paginas_item" href="#">Home</a>
                 <a class="paginas_item" href="#">Produtos</a>
                 <a class="paginas_item" href="#">Recursos</a>
                 <a class="paginas_item" href="#">Sobre nós</a>
-            </div>
+            </nav>
 
             <div class="botoes_container">
                 <a class="botoes_entrar" href="#">Entrar</a>
                 <button class="botoes_cadastrar" >Cadastrar</button>
             </div>
-        </nav>
-
-        <div class="cabecalho">
-            <span class="cabecalho_sobre_nos">Sobre nós</span>
-            <h2 class="cabecalho_titulo">Por que somos diferentes?</h2>
-            <p class="cabecalho_texto">Nós focamos nos detalhes de tudo que fazemos. Tudo para ajudar as empresas de <br>
-            todo o mundo a se concentrarem naquilo que é realmente importante para elas.</p>
-        </div>
+        </section>
     </header>
 
     <main>
+        <div class="cabecalho">
+            <span class="cabecalho_sobre_nos">Sobre nós</span>
+            <h2 class="cabecalho_titulo">Por que somos diferentes?</h2>
+            <p class="cabecalho_texto">Nós focamos nos detalhes de tudo que fazemos. Tudo para ajudar as empresas de
+            todo o mundo a se concentrarem naquilo que é realmente importante para elas.</p>
+        </div>
+
         <section class="metricas_container">
             <div class="metricas">
                 <h3 class="metrica_titulo">400+</h3>
@@ -82,7 +97,7 @@
                 <span class="vagas_span">Vagas abertas!</span>
                 <h5 class="vagas_titulo">Estamos procurando por talentos</h5>
                 <p class="vagas_texto">Somos uma equipe 100% remota com pessoas do Brasil inteiro.</p>
-                <img src="img/vagas.svg" alt="Pessoas em reunião">
+                <img src="img/vagas.svg" alt="Pessoas em reunião" class="vagas_imagem">
             </div>
 
             <div class="vagas_abertas">
@@ -158,6 +173,8 @@
 
             <p class="copyright">© 2022 OptimusTech. Todos os direitos reservados.</p>
         </section>
-    </footer>    
+    </footer>
+    
+    <script src="main.js"></script>
 </body>
 </html>

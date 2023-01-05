@@ -1,0 +1,68 @@
+@media screen and (max-width: 1024px) {
+    .paginas_item {
+        padding: 0 10px;
+        right: 0;
+    }
+
+    body {
+        width: min-content;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    body {
+        width: min-content;
+    }
+
+    .menu_icone {
+        display: inline;
+        width: 6%;
+    }
+
+    .cabecalho_nav {
+        display: flex;
+        justify-content: unset;
+        margin-left: 0.3rem;
+    }
+
+    .logo_container {
+        display: none;
+    }
+
+    .menu_lateral-ativo {
+        background-color: #667085;
+        color: var(--title-color);
+        display: inline;
+        position: absolute;
+        top: 65px;
+        transition: 0.5s;
+    }
+
+    .menu_logo {
+        align-items: center;
+        display: flex;
+    }
+
+    .paginas_item {
+        display: none;
+    }
+
+    .botoes_container {
+        margin-left: 4rem;
+    }
+
+    .botoes_cadastrar {
+    }
+
+    .metricas_container {
+        flex-wrap: wrap;
+    }
+
+    .metricas {
+        width: 50%;
+    }
+
+    .menu_item {
+        margin-bottom: 10px;
+    }
+}
