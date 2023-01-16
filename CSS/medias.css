@@ -14,15 +14,25 @@
         width: min-content;
     }
 
+    main {
+        width: 100vw;
+    }
+
     .menu_icone {
+        border-radius: 8px;
         display: inline;
-        width: 6%;
+        top: 0;
+        left: 0;
+        position: relative;
+        width: 25%;
     }
 
     .cabecalho_nav {
         display: flex;
-        justify-content: unset;
-        margin-left: 0.3rem;
+        justify-content: space-between;
+        width: 100%;
+        position: absolute;
+        padding: 0;
     }
 
     .logo_container {
@@ -30,17 +40,36 @@
     }
 
     .menu_lateral-ativo {
-        background-color: #667085;
+        background-color: #e4e7ea;
+        border-radius: 10px;
         color: var(--title-color);
         display: inline;
         position: absolute;
-        top: 65px;
+        text-align: center;
+        top: 106px;
         transition: 0.5s;
+        width: 75%;
     }
 
     .menu_logo {
         align-items: center;
         display: flex;
+        justify-content: center;
+        margin: 25px 0;
+    }
+
+    .menu_titulo{
+        font-size: 24px;
+    }
+
+    .menu_item{
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+
+    .menu_link{
+        color: var(--main-color);
+        text-decoration: none;
     }
 
     .paginas_item {
@@ -48,21 +77,73 @@
     }
 
     .botoes_container {
-        margin-left: 4rem;
+        margin: 0 1rem 0 4rem;
     }
 
-    .botoes_cadastrar {
+    .sobre_nos{
+        padding: 250px 90px 100px 90px;
+        text-align: center;
     }
 
     .metricas_container {
         flex-wrap: wrap;
+        gap: 40px;
     }
 
     .metricas {
-        width: 50%;
+        align-items: center;
     }
 
-    .menu_item {
-        margin-bottom: 10px;
+    .vagas_descricao {
+        margin: 0 10px;
+        text-align: center;
+    }
+
+    .vagas_texto {
+        margin-bottom: 0;
+    }
+
+    .informacoes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .vaga_salario {
+        margin: 0;
+    }
+
+    .depoimentos {
+        margin: 4rem 4rem;
+        padding: 110px;
+    }
+
+    .form {
+        width: 100vw;
+    }
+
+    .form_sub_titulo {
+        margin: 1.25rem 1rem 2.5rem 1rem;
+    }
+
+    .form_cadastro{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form_input {
+        width: 100%;
+    }
+
+    #email {
+        padding: 12px 16px 12px 16px;
+        text-align: center;
+    }
+
+    .form_button {
+        margin: 1rem 0 0 0;
+    }
+
+    .copyright {
+        font-size: 15px;
     }
 }
