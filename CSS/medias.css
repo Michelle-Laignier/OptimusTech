@@ -1,0 +1,153 @@
+@media screen and (max-width: 1024px) {
+    .paginas_item {
+        padding: 0 10px;
+        right: 0;
+    }
+
+    body {
+        width: min-content;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    body {
+        width: min-content;
+    }
+
+    main {
+        width: 100vw;
+    }
+
+    .menu_icone {
+        border-radius: 8px;
+        display: inline;
+        top: 0;
+        left: 0;
+        position: relative;
+        width: 25%;
+    }
+
+    .cabecalho_nav {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        position: absolute;
+        padding: 0;
+    }
+
+    .logo_container {
+        display: none;
+    }
+
+    .menu_lateral-ativo {
+        background-color: #e4e7ea;
+        border-radius: 10px;
+        color: var(--title-color);
+        display: inline;
+        position: absolute;
+        text-align: center;
+        top: 106px;
+        transition: 0.5s;
+        width: 75%;
+    }
+
+    .menu_logo {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin: 25px 0;
+    }
+
+    .menu_titulo{
+        font-size: 24px;
+    }
+
+    .menu_item{
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+
+    .menu_link{
+        color: var(--main-color);
+        text-decoration: none;
+    }
+
+    .paginas_item {
+        display: none;
+    }
+
+    .botoes_container {
+        margin: 0 1rem 0 4rem;
+    }
+
+    .sobre_nos{
+        padding: 250px 90px 100px 90px;
+        text-align: center;
+    }
+
+    .sobre_nos_texto {
+        margin: 0;
+    }
+
+    .metricas_container {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .metricas {
+        align-items: center;
+    }
+
+    .vagas_descricao {
+        margin: 0 10px;
+        text-align: center;
+    }
+
+    .vagas_texto {
+        margin-bottom: 0;
+    }
+
+    .informacoes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .vaga_salario {
+        margin: 0;
+    }
+
+    .depoimentos {
+        margin: 4rem 4rem;
+        padding: 110px;
+    }
+
+    .form {
+        width: 100vw;
+    }
+
+    .form_sub_titulo {
+        margin: 1.25rem 1rem 2.5rem 1rem;
+    }
+
+    .form_cadastro{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form_input {
+        width: 100%;
+    }
+
+    #email {
+        padding: 12px 16px 12px 16px;
+        text-align: center;
+    }
+
+    .form_button {
+        margin: 1rem 0 0 0;
+    }
+
+    .copyright {
+        font-size: 15px;
+    }
+}

@@ -1,9 +1,3 @@
-:root {
-    --text-color: #667085;
-    --main-color: #8E2424;
-    --title-color: #101828;
-}
-
 .form {
     align-items: center;
     background: #F9FAFB;
@@ -61,6 +55,11 @@
     line-height: 24px;
     margin-left: 1rem;
     padding: 12px 20px;
+    transition: 0.5s;
+}
+
+.form_button:hover {
+    background-color: #c31919;
 }
 
 .copyright {
