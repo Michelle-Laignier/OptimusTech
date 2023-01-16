@@ -85,6 +85,10 @@
         text-align: center;
     }
 
+    .sobre_nos_texto {
+        margin: 0;
+    }
+
     .metricas_container {
         flex-wrap: wrap;
         gap: 40px;

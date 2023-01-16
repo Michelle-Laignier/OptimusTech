@@ -45,7 +45,7 @@ body {
 }
 
 .paginas_item:hover {
-    color: black;
+    color: var(--main-color);
 }
 
 .botoes_container {
@@ -61,7 +61,7 @@ body {
 }
 
 .botoes_entrar:hover {
-    color: black;
+    color: var(--main-color);
 }
 
 .botoes_cadastrar {
